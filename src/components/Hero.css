@@ -1,0 +1,192 @@
+.hero-section {
+  background: linear-gradient(to right, rgb(72, 65, 148));
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.hero-content {
+  max-width: 900px;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.highlight {
+  color: #ec0909;
+}
+
+
+.hero-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 70%; /* 丸くする */
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 2px solid #ccc;
+}
+
+
+.hero-role {
+  font-size: 1.5rem;
+  margin-bottom:3rem;
+}
+
+.hero-description {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #dddddd;
+}
+
+
+.hero-projects {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 8px;
+  
+}
+
+.hero-projects h2 {
+  color: #ebeef1;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.project {
+  margin-bottom: 1.5rem;
+}
+
+.project h3 {
+  font-size: 1.2rem;
+  color: #ecf0f3;
+  margin-bottom: 0.5rem;
+}
+
+.project ul {
+  list-style: disc;
+  padding-left: 10rem;
+  list-style-position: inside;
+  text-align: center;  
+}
+
+.project li {
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+  text-align: left;  
+  padding-left: 2rem;
+}
+.project-image {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.project-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
+.hero-links a {
+  display: inline-block;
+  margin: 0 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s;
+  margin-bottom: 2.5rem;
+}
+
+.hero-links a:hover {
+  border-color: #00ffff;
+}
+
+.hero-contact {
+  
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+
+.hero-hobbies {
+  margin-top: 2rem;
+}
+
+.hero-hobbies h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #eee9e9;
+}
+
+.hero-hobbies li {
+  margin-bottom: 0.3rem;
+  font-size: 1.2rem;
+  display: flex;
+  text-align: center;
+  flex-direction: column; /* 縦並び */
+  
+}
+
+.bike-photo{
+  width: 50%; 
+  display: block;
+  margin: 1rem auto 0; /* 上に1remの余白、左右は自動で中央揃え */
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+.hero-hobbies2 {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+}
+
+.hero-hobbies2 ul {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-left: 1.5rem;
+  list-style: disc;
+  list-style-position: outside; 
+  
+}
+
+.hero-hobbies2 li {
+  position: relative;
+  padding-left: 0.6em; /* 丸分のスペースを確保 */
+  text-align: center;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hobby-photo {
+  width: 100%;  /* ここを100%に */
+  height: auto;
+  margin-top: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+.hobby-description {
+  font-size: 1.1rem;
+  color: #ddd;
+  margin-top: 0.5rem;
+}
+
+
+

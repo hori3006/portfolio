@@ -1,0 +1,110 @@
+/* ベーススタイル */
+.max-tracker {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #f1eded;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* タイトル */
+.title {
+  text-align: center;
+  font-size: 2rem;
+  color: #2e3a59;
+  margin-bottom: 1.5rem;
+}
+
+/* 入力フォーム */
+.input-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.input-group input,
+.input-group select {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  min-width: 150px;
+}
+
+.add-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.add-btn:hover {
+  background-color: #388e3c;
+}
+
+/* 小見出し */
+.subtitle {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #333;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.3rem;
+}
+
+/* リスト表示 */
+.record-list,
+.max-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.record-item,
+.max-item {
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.record-item:nth-child(even),
+.max-item:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* 削除ボタン */
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f;
+}
+
+.max-tracker h2 {
+  margin-top: 40px; 
+  margin-bottom: 16px;
+}
+
+/* 各部位のセクション */
+.max-tracker h3 {
+  margin-top: 1.5rem;
+  color: #2c3e50;
+  font-size: 1.25rem;
+}
